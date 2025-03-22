@@ -9,7 +9,7 @@ export default function Header(){
                 <div className={styles.photo_cont}>
                     <Image 
                         className={styles.photo}
-                        src={"/resume_photo.jpg"}
+                        src={"./resume_photo.jpg"}
                         width={100}
                         height={100}
                         alt="Picture of portfolio author Chad Jones"
