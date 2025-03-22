@@ -31,22 +31,30 @@ export default function Header(){
             </nav>
 
             <div className={styles.contact_cont}>
-                <FaEnvelope 
-                    className={styles.icon}
-                    size={'2rem'}
-                />
-                <FaLinkedin 
-                    className={styles.icon}
-                    size={'2rem'}
-                />
-                <FaGithub 
-                    className={styles.icon}
-                    size={'2rem'}
-                />
-                <FaKaggle 
-                    className={styles.icon_kaggle}
-                    size={'2rem'}
-                />
+                <a href="clownchad@gmail.com">
+                    <FaEnvelope 
+                        className={styles.icon}
+                        size={'2rem'}
+                    />
+                </a>
+                <a href="https://www.linkedin.com/in/chad-j-524825348/">
+                    <FaLinkedin 
+                        className={styles.icon}
+                        size={'2rem'}
+                    />
+                </a>
+                <a href="https://github.com/ClownChad">
+                    <FaGithub 
+                        className={styles.icon}
+                        size={'2rem'}
+                    />
+                </a>
+                <a href="https://www.kaggle.com/clownchad/code">
+                    <FaKaggle 
+                        className={styles.icon_kaggle}
+                        size={'2rem'}
+                    />
+                </a>
             </div>
         </header>
     )
