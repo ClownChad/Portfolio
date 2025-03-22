@@ -28,7 +28,7 @@ export default function Header(){
                         <li>Home</li>
                     </a>
                     
-                    <a className={styles.nav_link} href="#">
+                    <a className={styles.nav_link} href="/projects">
                         <li>Projects</li>
                     </a>
 

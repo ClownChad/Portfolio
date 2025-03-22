@@ -11,6 +11,11 @@
   font-style: italic;
 }
 
+.section_title{
+  font-size: var(--fs_header);
+  text-decoration: underline;
+}
+
 .about_me_cont{
   display: grid;
   grid-template-columns: 1fr 2fr;
@@ -20,15 +25,25 @@
   text-align: center;
   margin: var(--section_margin);
 
-  .about_me_title{
-    font-size: var(--fs_header);
-    text-decoration: underline;
-  }
-
   .about_me{
     margin: 1rem;
     font-size: var(--fs_p);
     line-height: 2rem;
+  }
+
+  .projects_link{
+    padding: 2px;
+    color: var(--foreground);
+    background-color: var(--background_header);
+    border-radius: 3px;
+    font-weight: bold;
+    font-style: italic;
+    text-decoration: underline;
+  }
+
+  .projects_link:hover{
+    color: var(--background_header);
+    background-color: var(--foreground);
   }
 }
 
@@ -46,14 +61,62 @@
     width: 100%;
   }
 
-  .tech_skills_title, .soft_skills_title{
-    font-size: var(--fs_header);
-    text-decoration: underline;
-  }
-
   .tech_skills_list, .soft_skills_list{
     margin: 1rem;
     font-size: var(--fs_p);
     line-height: 2rem;
+  }
+}
+
+.experience_cont{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  margin: var(--section_margin);
+
+  .waypoint_header_cont{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 100%;
+    width: 80%;
+    height: 100%;
+    margin: 1rem;
+
+    .waypoint_title_cont, .waypoint_position_cont{
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+      height: 100%;
+    }
+
+    .waypoint_title_cont{
+      align-items: flex-start;
+    }
+
+    .waypoint_position_cont, .waypoint_dates{
+      display: flex;
+      flex-direction: column;
+      align-items: flex-end;
+    }
+
+    .waypoint_title, .waypoint_position{
+      font-size: var(--fs_header_2);
+      font-weight: bold;
+    }
+
+    .waypoint_location, .waypoint_dates{
+      font-size: var(--fs_p);
+      font-style: italic;
+    }
+  }
+
+  .waypoint_desc_cont{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: flex-start;
+    width: 100%;
   }
 }
