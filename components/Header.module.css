@@ -1,0 +1,54 @@
+.header{    
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: auto;
+    align-items: center;
+    text-align: center;
+    padding: 1rem;
+}
+
+.name_cont{
+    display: flex;
+    flex-direction: row;
+
+    .photo{
+        border-radius: 50%;
+    }
+
+    .text_cont{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 1rem 2rem;
+    }
+}
+
+.nav{
+    .list{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+
+        list-style: none;
+        list-style-type: none;
+
+        .list_item{
+            padding-inline: 1rem;
+        }
+    }
+}
+
+.contact_cont{
+    display: flex;
+    justify-content: end;
+    
+    .icon{
+        margin-inline: .75rem;
+    }
+
+    .icon_kaggle{
+        margin-inline: .22rem;
+    }
+}
+
