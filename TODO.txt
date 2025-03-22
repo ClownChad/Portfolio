@@ -1,0 +1,1 @@
+Make "portfolio projects" text in about me link to projects

@@ -1,9 +1,14 @@
 :root {
-  --background: #181818;
+  --background: #191919;
+  --background_header: #333;
   --foreground: #ededed;
-  --red: red;
+  --foreground_40: rgb(237, 237, 237, .4);
+  --green: #859e6f;
 
-  --fs_header: 2rem
+  --fs_header: 2.5rem;
+  --fs_p: 1.2rem;
+
+  --section_margin: 2rem 5rem;
 }
 
 html,
