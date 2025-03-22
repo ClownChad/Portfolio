@@ -1,10 +1,15 @@
-.header{    
+.header{   
+    /* position: fixed;  */
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: auto;
     align-items: center;
     text-align: center;
+
+    width: 100%;
     padding: 1rem;
+
+    box-shadow: 0 0.2rem 15px 5px white;
 }
 
 .name_cont{
@@ -41,7 +46,7 @@
 
 .contact_cont{
     display: flex;
-    justify-content: end;
+    justify-content: flex-end;
     
     .icon{
         margin-inline: .75rem;
