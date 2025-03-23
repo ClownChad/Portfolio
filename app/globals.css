@@ -20,6 +20,7 @@ body {
 }
 
 body {
+  height: 100%;
   color: var(--foreground);
   background: var(--background);
   font-family: var(--font_roboto), Helvetica, sans-serif;
@@ -37,4 +38,38 @@ body {
 a {
   color: inherit;
   text-decoration: none;
+}
+
+.section{
+  margin: var(--section_margin);
+}
+
+.section_title{
+  font-size: var(--fs_header);
+  font-style: italic;
+  font-weight: 500;
+  text-decoration: underline;
+}
+
+.text_em, .text_em_link{
+  padding: 2px;
+  border-radius: 3px;
+  font-weight: 700;
+  font-style: italic;
+}
+
+.text_em{
+  color: var(--background);
+  background-color: var(--foreground);
+}
+
+.text_em_link{
+  color: var(--background);
+  background-color: var(--green);
+  text-decoration: underline;
+}
+
+.text_em_link:hover{
+  color: var(--green);
+  background-color: var(--foreground);
 }

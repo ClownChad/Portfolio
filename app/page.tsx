@@ -7,31 +7,32 @@ export default function Home() {
       
       <hr/>
       
-      <div className={`${styles.about_me_cont} ${styles.section}`}>
-        <h1 className={styles.section_title}>About Me</h1>
+      <div className={`${styles.about_me_cont} section`}>
+        <h1 className={"section_title"}>About Me</h1>
         <div className={styles.about_me}>
-          <p>Hello! I&#39;m <span className={styles.text_em}>Chad Jones</span>. With nearly <span className={styles.text_em}>12 years of experience as a hobbyist programmer</span>, I discovered a passion for data analytics through my studies. Since entering the workforce at age 14, I have utilized spreadsheets to manage finances and organize personal projects. Now, after completing <a className={styles.text_em_link} href="/projects">multiple portfolio projects</a> and the <span className={styles.text_em}>Google DA Certificate</span>, I&#39;m equipped with professional knowledge and eager to transition into the field as a Data Analyst.</p>
+          <p>Hello! I&#39;m <span className={"text_em"}>Chad Jones</span>. With nearly <span className={"text_em"}>12 years of experience as a hobbyist programmer</span>, I discovered a passion for data analytics through my studies. Since entering the workforce at age 14, I have utilized spreadsheets to manage finances and organize personal projects. Now, after completing <a className={"text_em_link"} href="/projects">multiple portfolio projects</a> and the <span className={"text_em"}>Google DA Certificate</span>, I&#39;m equipped with professional knowledge and eager to transition into the field as a Data Analyst.</p>
         </div>
       </div>
 
       <hr/>
 
-      <div className={`${styles.skills_cont} ${styles.section}`}>
+      <div className={`${styles.skills_cont} section`}>
         <div className={styles.tech_skills_cont}>
-          <h1 className={styles.section_title}>Technical Skills</h1>
+          <h1 className={"section_title"}>Technical Skills</h1>
           <ul className={styles.tech_skills_list}>
             <li>Spreadsheets (Excel / Google Sheets)</li>
-            <li>SQL</li>
+            <li>SQL / SQLite</li>
             <li>Python / R</li>
             <li>Markdown / RMarkdown</li>
             <li>Tableau</li>
+            <li>Visual Studio Code</li>
             <li>Git / Github</li>
             <li>HTML / CSS / JavaScript</li>
           </ul>
         </div>
 
         <div className={styles.soft_skills_cont}>
-        <h1 className={styles.section_title}>Soft Skills</h1>
+        <h1 className={"section_title"}>Soft Skills</h1>
           <ul className={styles.soft_skills_list}>
             <li>Technical mindset driven to find automation and efficiency</li>
             <li>Passion for overcoming challenges, solving complex problems, and finding patterns</li>
@@ -44,8 +45,8 @@ export default function Home() {
 
       <hr/>
 
-      <div className={`${styles.experience_cont} ${styles.section}`}>
-        <h1 className={styles.section_title}>Experience</h1>
+      <div className={`${styles.experience_cont} section`}>
+        <h1 className={"section_title"}>Experience</h1>
 
         <div className={styles.job_header_cont}>
 
@@ -109,10 +110,10 @@ export default function Home() {
 
       <hr/>
 
-      <div className={`${styles.certs_cont} ${styles.section}`}>
-        <h1 className={styles.section_title}>Certifications</h1>
+      <div className={`${styles.certs_cont} section`}>
+        <h1 className={"section_title"}>Certifications</h1>
 
-        <h2 className={`${styles.cert_title} ${styles.text_em_link}`}>
+        <h2 className={`${styles.cert_title} ${"text_em_link"}`}>
           <Link 
             href="https://coursera.org/verify/professional-cert/V14UY7PYG6LI" 
             target="_blank"
