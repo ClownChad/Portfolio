@@ -29,7 +29,7 @@ export default function ProjectsPage(){
                             href="https://public.tableau.com/app/profile/chad.j8196/viz/DividendChampionGapTheory/DividendChampionGapTheory"
                             target="_blank"
                         >
-                            View "Dividend Champion Gap Theory" on Tableau
+                            View &quot;Dividend Champion Gap Theory&quot; on Tableau
                         </Link>
                     </div>
 
@@ -60,7 +60,7 @@ export default function ProjectsPage(){
                             href="https://www.kaggle.com/code/clownchad/cafe-sales-junior-data-analysis"
                             target="_blank"
                         >
-                            View "Cafe Sales Analysis" on Kaggle
+                            View &quot;Cafe Sales Analysis&quot; on Kaggle
                         </Link>
                     </div>
 
@@ -91,7 +91,7 @@ export default function ProjectsPage(){
                             href="https://www.kaggle.com/code/clownchad/apple-stock-junior-exploratory-analysis"
                             target="_blank"
                         >
-                            View "Apple Stock Exploratory Analysis" on Kaggle
+                            View &quot;Apple Stock Exploratory Analysis&quot; on Kaggle
                         </Link>
                     </div>
 
