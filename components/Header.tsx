@@ -1,5 +1,6 @@
 import styles from "./Header.module.css"
 import Image from "next/image";
+import Link from "next/link";
 import { FaEnvelope, FaLinkedin, FaGithub, FaKaggle } from "react-icons/fa"
 
 export default function Header(){
@@ -24,42 +25,42 @@ export default function Header(){
 
             <nav className={styles.nav}>
                 <ul className={styles.list}>
-                    <a className={styles.nav_link} href="/">
+                    <Link className={styles.nav_link} href="/">
                         <li>Home</li>
-                    </a>
+                    </Link>
                     
-                    <a className={styles.nav_link} href="/projects">
+                    <Link className={styles.nav_link} href="/projects">
                         <li>Projects</li>
-                    </a>
+                    </Link>
 
                 </ul>   
             </nav>
 
             <div className={styles.contact_cont}>
-                <a className={styles.icon_link} href="clownchad@gmail.com">
+                <Link className={styles.icon_link} href="clownchad@gmail.com">
                     <FaEnvelope 
                         className={styles.icon}
                         size={'2rem'}
                     />
-                </a>
-                <a className={styles.icon_link} href="https://www.linkedin.com/in/chad-j-524825348/">
+                </Link>
+                <Link className={styles.icon_link} href="https://www.linkedin.com/in/chad-j-524825348/">
                     <FaLinkedin 
                         className={styles.icon}
                         size={'2rem'}
                     />
-                </a>
-                <a className={styles.icon_link} href="https://github.com/ClownChad">
+                </Link>
+                <Link className={styles.icon_link} href="https://github.com/ClownChad">
                     <FaGithub 
                         className={styles.icon}
                         size={'2rem'}
                     />
-                </a>
-                <a className={styles.icon_link} href="https://www.kaggle.com/clownchad/code">
+                </Link>
+                <Link className={styles.icon_link} href="https://www.kaggle.com/clownchad/code">
                     <FaKaggle 
                         className={styles.icon_kaggle}
                         size={'2rem'}
                     />
-                </a>
+                </Link>
             </div>
         </header>
     )
