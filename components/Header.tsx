@@ -37,25 +37,34 @@ export default function Header(){
             </nav>
 
             <div className={styles.contact_cont}>
-                <Link className={styles.icon_link} href="clownchad@gmail.com">
+                <Link className={styles.icon_link} href="chadderbox@live.com">
                     <FaEnvelope 
                         className={styles.icon}
                         size={'2rem'}
                     />
                 </Link>
-                <Link className={styles.icon_link} href="https://www.linkedin.com/in/chad-j-524825348/">
+                <Link className={styles.icon_link} 
+                    href="https://www.linkedin.com/in/chad-j-524825348/"
+                    target="_blank"
+                >
                     <FaLinkedin 
                         className={styles.icon}
                         size={'2rem'}
                     />
                 </Link>
-                <Link className={styles.icon_link} href="https://github.com/ClownChad">
+                <Link 
+                    className={styles.icon_link} href="https://github.com/ClownChad"
+                    target="_blank"
+                >
                     <FaGithub 
                         className={styles.icon}
                         size={'2rem'}
                     />
                 </Link>
-                <Link className={styles.icon_link} href="https://www.kaggle.com/clownchad/code">
+                <Link
+                    className={styles.icon_link} href="https://www.kaggle.com/clownchad/code"
+                    target="_blank"
+                >
                     <FaKaggle 
                         className={styles.icon_kaggle}
                         size={'2rem'}

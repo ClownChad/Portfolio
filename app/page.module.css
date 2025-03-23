@@ -2,13 +2,27 @@
   margin: 2rem 5rem;
 }
 
-.text_em{
+.text_em, .text_em_link{
   padding: 2px;
-  color: var(--background);
-  background-color: var(--foreground);
   border-radius: 3px;
   font-weight: 700;
   font-style: italic;
+}
+
+.text_em{
+  color: var(--background);
+  background-color: var(--foreground);
+}
+
+.text_em_link{
+  color: var(--background);
+  background-color: var(--green);
+  text-decoration: underline;
+}
+
+.text_em_link:hover{
+  color: var(--green);
+  background-color: var(--foreground);
 }
 
 .section{
@@ -34,21 +48,6 @@
     margin: 1rem;
     font-size: var(--fs_p);
     line-height: 2rem;
-  }
-
-  .projects_link{
-    padding: 2px;
-    color: var(--foreground);
-    background-color: var(--background_header);
-    border-radius: 3px;
-    font-weight: bold;
-    font-style: italic;
-    text-decoration: underline;
-  }
-
-  .projects_link:hover{
-    color: var(--background_header);
-    background-color: var(--foreground);
   }
 }
 
@@ -142,5 +141,25 @@
   .job_desc_list{
     font-size: var(--fs_p);
     font-weight: 300;
+  }
+}
+
+.certs_cont{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+
+  .cert_title{
+    margin-top: 3rem;
+    font-size: var(--fs_header);
+    font-weight: 700;
+  }
+
+  .cert_date{
+    margin-top: 0.5rem;
+    font-size: var(--fs_p);
+    font-style: italic;
   }
 }

@@ -1,4 +1,5 @@
 import styles from "./page.module.css";
+import Link from "next/link";
 
 export default function Home() {
   const content = (
@@ -9,7 +10,7 @@ export default function Home() {
       <div className={`${styles.about_me_cont} ${styles.section}`}>
         <h1 className={styles.section_title}>About Me</h1>
         <div className={styles.about_me}>
-          <p>Hello! I&#39;m <span className={styles.text_em}>Chad Jones</span>. With nearly <span className={styles.text_em}>12 years of experience as a hobbyist programmer</span>, I discovered a passion for data analytics through my studies. Since entering the workforce at age 14, I have utilized spreadsheets to manage finances and organize personal projects. Now, after completing <a className={styles.projects_link} href="/projects">multiple portfolio projects</a> and the <span className={styles.text_em}>Google DA Certificate</span>, I&#39;m equipped with professional knowledge and eager to transition into the field as a Data Analyst.</p>
+          <p>Hello! I&#39;m <span className={styles.text_em}>Chad Jones</span>. With nearly <span className={styles.text_em}>12 years of experience as a hobbyist programmer</span>, I discovered a passion for data analytics through my studies. Since entering the workforce at age 14, I have utilized spreadsheets to manage finances and organize personal projects. Now, after completing <a className={styles.text_em_link} href="/projects">multiple portfolio projects</a> and the <span className={styles.text_em}>Google DA Certificate</span>, I&#39;m equipped with professional knowledge and eager to transition into the field as a Data Analyst.</p>
         </div>
       </div>
 
@@ -108,8 +109,18 @@ export default function Home() {
 
       <hr/>
 
-      <div className={`${styles.certifcations_cont} ${styles.section}`}>
-      <h1 className={styles.section_title}>Certifications</h1>
+      <div className={`${styles.certs_cont} ${styles.section}`}>
+        <h1 className={styles.section_title}>Certifications</h1>
+
+        <h2 className={`${styles.cert_title} ${styles.text_em_link}`}>
+          <Link 
+            href="https://coursera.org/verify/professional-cert/V14UY7PYG6LI" 
+            target="_blank"
+          >
+            Google Data Analytics Certificate
+          </Link>
+        </h2>
+        <p className={styles.cert_date}>March 2025</p>
       </div>
     </main>
   )
