@@ -10,7 +10,7 @@ export default function Home() {
       <div className={`${styles.about_me_cont} section`}>
         <h1 className={"section_title"}>About Me</h1>
         <div className={styles.about_me}>
-          <p>Hello! I&#39;m <span className={"text_em"}>Chad Jones</span>. With nearly <span className={"text_em"}>12 years of experience as a hobbyist programmer</span>, I discovered a passion for data analytics through my studies. Since entering the workforce at age 14, I have utilized spreadsheets to manage finances and organize personal projects. Now, after completing <a className={"text_em_link"} href="/projects">multiple portfolio projects</a> and the <span className={"text_em"}>Google DA Certificate</span>, I&#39;m equipped with professional knowledge and eager to transition into the field as a Data Analyst.</p>
+          <p>Hello! I&#39;m <span className={"text_em"}>Chad Jones</span>. With nearly <span className={"text_em"}>12 years of experience as a hobbyist programmer</span>, I discovered a passion for data analytics through my studies. Since entering the workforce at age 14, I have utilized spreadsheets to manage finances and organize personal projects. Now, after completing <Link className={"text_em_link"} href="/projects">multiple portfolio projects</Link> and the <Link className={"text_em_link"} href={"https://coursera.org/verify/professional-cert/V14UY7PYG6LI"} target="_blank">Google DA Certificate</Link>, I&#39;m equipped with professional knowledge and eager to transition into the field as a Data Analyst.</p>
         </div>
       </div>
 

@@ -29,7 +29,17 @@ export default function ProjectsPage(){
                             href="https://public.tableau.com/app/profile/chad.j8196/viz/DividendChampionGapTheory/DividendChampionGapTheory"
                             target="_blank"
                         >
-                            View &quot;Dividend Champion Gap Theory&quot; on Tableau
+                            View Data Viz on Tableau
+                        </Link>
+                    </div>
+
+                    <div className={styles.proj_link}>
+                        <Link
+                            className={"text_em_link"}
+                            href="https://github.com/ClownChad/Dividend_Champion_Gap_Theory"
+                            target="_blank"
+                        >
+                            View Source Files on GitHub
                         </Link>
                     </div>
 
@@ -60,7 +70,17 @@ export default function ProjectsPage(){
                             href="https://www.kaggle.com/code/clownchad/cafe-sales-junior-data-analysis"
                             target="_blank"
                         >
-                            View &quot;Cafe Sales Analysis&quot; on Kaggle
+                            View Jupyter Notebook on Kaggle
+                        </Link>
+                    </div>
+
+                    <div className={styles.proj_link}>
+                        <Link
+                            className={"text_em_link"}
+                            href="https://github.com/ClownChad/Google-DA-Certificate-Assignments/tree/main/2025.02.03%20Cafe%20Sales%20Data%20Cleaning%20and%20Analysis"
+                            target="_blank"
+                        >
+                            View Source Files on GitHub
                         </Link>
                     </div>
 
@@ -91,7 +111,17 @@ export default function ProjectsPage(){
                             href="https://www.kaggle.com/code/clownchad/apple-stock-junior-exploratory-analysis"
                             target="_blank"
                         >
-                            View &quot;Apple Stock Exploratory Analysis&quot; on Kaggle
+                            View Jupyter Notebook on Kaggle
+                        </Link>
+                    </div>
+
+                    <div className={styles.proj_link}>
+                        <Link
+                            className={"text_em_link"}
+                            href="https://github.com/ClownChad/Google-DA-Certificate-Assignments/tree/main/2025.01.16%20Apple%20Stock%20Analysis"
+                            target="_blank"
+                        >
+                            View Source Files on GitHub
                         </Link>
                     </div>
 
