@@ -17,23 +17,37 @@
   }
 }
 
-.skills_cont{
+.skills_summary_cont{
   display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   height: 100%;
 
-  .tech_skills_cont, .soft_skills_cont{
-    display: flex;
-    flex-direction: column;
+  .skills_cont{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: repeat(5, auto);
+    gap: 2rem;
+    justify-content: center;
     align-items: center;
-    width: 100%;
+    text-align: center;
+    height: 100%;
   }
 
-  .tech_skills_list, .soft_skills_list{
-    margin: 1rem;
+  .skills_cont{
+    width: 100%;
+    margin-top: 2rem;
+  }
+
+  .skills_title{
+    font-size: var(--fs_header);
+    font-weight: 700;
+  }
+
+  .skills_list{
+    list-style-type: none;
     font-size: var(--fs_p);
-    line-height: 2rem;
   }
 }
 
@@ -51,7 +65,7 @@
   grid-template-rows: repeat(2, 1fr);
   width: 100%;
   height: 100%;
-  margin-top: 3.5rem;
+  margin-top: 2rem;
 
   .job_title_cont, .job_position_cont, 
   .job_position_cont, .job_dates{
@@ -118,7 +132,7 @@
   height: 100%;
 
   .cert_title{
-    margin-top: 3rem;
+    margin-top: 2rem;
     font-size: var(--fs_header);
     font-weight: 700;
   }
