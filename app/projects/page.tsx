@@ -14,6 +14,8 @@ export default function ProjectsPage(){
                 <div className={`${styles.proj_cont} section`}>
                     <h1 className={"section_title"}>Dividend Champion Gap Theory</h1>
                     
+                    <p className={styles.proj_overview}>Used R to scrape dividend stock data from Yahoo Finance to test if stock prices consistently increased around dividend announcements. Then, created data viz using Tableau.</p>
+
                     <div className={styles.tools_cont}>
                         <h2 className={styles.tools_header}>Tools Used</h2>
                         <ul className={styles.tools_list}>
@@ -55,6 +57,8 @@ export default function ProjectsPage(){
                 <div className={`${styles.proj_cont} section`}>
                     <h1 className={"section_title"}>Cafe Sales Analysis</h1>
 
+                    <p className={styles.proj_overview}>Cleaned, prepared, and analyzed mock cafe business&#39;s sales data to identify sales trends and patterns. Completed using spreadsheets then converted project to a Python Jupyter Notebook.</p>
+
                     <div className={styles.tools_cont}>
                         <h2 className={styles.tools_header}>Tools Used</h2>
                         <ul className={styles.tools_list}>
@@ -95,6 +99,8 @@ export default function ProjectsPage(){
 
                 <div className={`${styles.proj_cont} section`}>
                     <h1 className={"section_title"}>Apple Stock Exploratory Analysis</h1>
+
+                    <p className={styles.proj_overview}>Used Google Sheets to create pivot tables and summary tables of Apple Stock data. Created candlestick graphs within the sheets. Then, converted project to a Python Jupyter Notebook.</p>
 
                     <div className={styles.tools_cont}>
                         <h2 className={styles.tools_header}>Tools Used</h2>

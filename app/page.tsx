@@ -16,29 +16,50 @@ export default function Home() {
 
       <hr/>
 
-      <div className={`${styles.skills_cont} section`}>
-        <div className={styles.tech_skills_cont}>
-          <h1 className={"section_title"}>Technical Skills</h1>
-          <ul className={styles.tech_skills_list}>
-            <li>Spreadsheets (Excel / Google Sheets)</li>
-            <li>SQL / SQLite</li>
-            <li>Python / R</li>
-            <li>Markdown / RMarkdown</li>
-            <li>Tableau</li>
-            <li>Visual Studio Code</li>
-            <li>Git / Github</li>
-            <li>HTML / CSS / JavaScript</li>
-          </ul>
-        </div>
+      <div className={`${styles.skills_summary_cont} section`}>
+        <h1 className={"section_title"}>Skills Summary</h1>
 
-        <div className={styles.soft_skills_cont}>
-        <h1 className={"section_title"}>Soft Skills</h1>
-          <ul className={styles.soft_skills_list}>
-            <li>Technical mindset driven to find automation and efficiency</li>
-            <li>Passion for overcoming challenges, solving complex problems, and finding patterns</li>
-            <li>Detail-oriented and organized</li>
-            <li>Works well both independently and while collaborating with a team</li>
-            <li>Excellent time management skills</li>
+        <div className={styles.skills_cont}>
+          <h2 className={styles.skills_title}>Tools</h2>
+          <ul className={styles.skills_list}>
+            <li>Excel / Google Sheets</li>
+            <li>Tableau</li>
+            <li>MySQL Workbench</li>
+            <li>DB Browser</li>
+            <li>Git</li>
+          </ul>
+
+          <h2 className={styles.skills_title}>Languages</h2>
+          <ul className={styles.skills_list}>
+            <li>Python / R</li>
+            <li>SQL / SQLite</li>
+            <li>HTML / CSS / JavaScript</li>
+            <li>NextJS</li>
+          </ul>
+
+          <h2 className={styles.skills_title}>Frameworks</h2>
+          <ul className={styles.skills_list}>
+            <li>pandas (Python)</li>
+            <li>numpy (Python)</li>
+            <li>matplotlib (Python)</li>
+            <li>tidyverse (R)</li>
+          </ul>
+
+          <h2 className={styles.skills_title}>Platforms</h2>
+          <ul className={styles.skills_list}>
+            <li>Visual Studio Code</li>
+            <li>Jupyter Notebook</li>
+            <li>BigQuery</li>
+            <li>GitHub</li>
+          </ul>
+
+          <h2 className={styles.skills_title}>Soft Skills</h2>
+          <ul className={styles.skills_list}>
+            <li>Problem-Solving</li>
+            <li>Analytical Thinking</li>
+            <li>Excellent Time Management</li>
+            <li>Detail-Oriented</li>
+            <li>Strong ability to work independently and with teams</li>
           </ul>
         </div>
       </div>
