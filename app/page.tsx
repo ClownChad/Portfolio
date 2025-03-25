@@ -67,7 +67,7 @@ export default function Home() {
       <hr/>
 
       <div className={`${styles.experience_cont} section`}>
-        <h1 className={"section_title"}>Experience</h1>
+        <h1 className={"section_title"}>Work Experience</h1>
 
         <div className={styles.job_header_cont}>
 
