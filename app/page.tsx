@@ -37,7 +37,7 @@ export default function Home() {
             <li>NextJS</li>
           </ul>
 
-          <h2 className={styles.skills_title}>Frameworks</h2>
+          <h2 className={styles.skills_title}>Libraries</h2>
           <ul className={styles.skills_list}>
             <li>pandas (Python)</li>
             <li>numpy (Python)</li>
