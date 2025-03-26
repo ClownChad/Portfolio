@@ -66,6 +66,21 @@ export default function Home() {
 
       <hr/>
 
+      <div className={`${styles.edu_cont} section`}>
+        <h1 className={"section_title"}>Education</h1>
+
+        <h2 className={`${styles.edu_title} ${"text_em_link"}`}>
+          <Link 
+            href="https://coursera.org/verify/professional-cert/V14UY7PYG6LI" 
+            target="_blank"
+          >
+            Google Data Analytics Certificate
+          </Link>
+        </h2>
+      </div>
+
+      <hr/>
+
       <div className={`${styles.experience_cont} section`}>
         <h1 className={"section_title"}>Work Experience</h1>
 
@@ -88,15 +103,10 @@ export default function Home() {
         <div className={styles.job_desc_cont}>
           <p className={styles.job_overview}>Agricultural lab position at a company which hit new record high numbers 3 years in a row.</p>
 
-          <p className={styles.waypoint_season}>Plant Analysis (Seasonal)</p>
           <ul className={styles.job_desc_list}>
             <li>Responsible for maintenance and operation of 5 combustion analysis (LECO) machines.</li>
             <li>Accurately weighed and prepped up to 2,500 plant samples daily.</li>
             <li>Lead team of 2 assistants and collaborated with night shift to ensure smooth and timely 24-hour workflow.</li>
-          </ul>
-
-          <p className={styles.waypoint_season}>Soil Analysis (Seasonal)</p>
-          <ul className={styles.job_desc_list}>
             <li>Effectively collaborated with 12+ person receiving team to organize and prep up to 13,000 samples daily for overnight testing.</li>
             <li>Prepped and independently analyzed Bray II Phosphorus tests on ICP spectrometer.</li>
           </ul>
@@ -127,22 +137,6 @@ export default function Home() {
             <li>Assisted in the maintenance of 2 spreadsheets of 1,000s of employees for pending info and needed DMV / medical information</li>
           </ul>
         </div>
-      </div>
-
-      <hr/>
-
-      <div className={`${styles.certs_cont} section`}>
-        <h1 className={"section_title"}>Certifications</h1>
-
-        <h2 className={`${styles.cert_title} ${"text_em_link"}`}>
-          <Link 
-            href="https://coursera.org/verify/professional-cert/V14UY7PYG6LI" 
-            target="_blank"
-          >
-            Google Data Analytics Certificate
-          </Link>
-        </h2>
-        <p className={styles.cert_date}>March 2025</p>
       </div>
     </main>
   )

@@ -112,34 +112,22 @@
     font-weight: 300;
   }
 
-  .waypoint_season{
-    margin-top: 1rem;
-    font-size: var(--fs_header_3);
-    font-weight: 500;
-  }
-
   .job_desc_list{
     font-size: var(--fs_p);
     font-weight: 300;
   }
 }
 
-.certs_cont{
+.edu_cont{
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   height: 100%;
 
-  .cert_title{
+  .edu_title{
     margin-top: 2rem;
     font-size: var(--fs_header);
     font-weight: 700;
-  }
-
-  .cert_date{
-    margin-top: 0.5rem;
-    font-size: var(--fs_p);
-    font-style: italic;
   }
 }
