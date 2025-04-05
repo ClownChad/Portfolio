@@ -133,7 +133,7 @@ export default function Home() {
           <ul className={styles.job_desc_list}>
             <li>Managed detailed data entry and onboarding procedures for 20 to 50 nationwide prospective candidates daily, ensuring accurate collection and processing of critical employment data.</li>
             <li>Utilized effective written and verbal communication to resolve discrepancies in candidate information, supporting data quality and timely decision-making.</li>
-            <li>Maintained and updated large spreadsheets of thousands of employees' records tracking pending DMV and medical information. </li>
+            <li>Maintained and updated large spreadsheets of thousands of employees&#39; records tracking pending DMV and medical information. </li>
           </ul>
         </div>
       </div>
