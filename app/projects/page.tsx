@@ -2,6 +2,7 @@ import styles from "./page.module.css"
 import SideBar from "@/components/SideBar"
 import Link from "next/link"
 import TableauEmbed from "@/components/TableauEmbed"
+import KaggleEmbed from "@/components/KaggleEmbed"
 
 export default function ProjectsPage(){
     const content = (
@@ -45,11 +46,12 @@ export default function ProjectsPage(){
                         </Link>
                     </div>
 
-                    <TableauEmbed 
+                    {/* <TableauEmbed 
                         href="https://public.tableau.com/views/DividendChampionGapTheory/DividendChampionGapTheory?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link"
+                        title="Dividend Champion Gap Theory"
                         width="1250"
                         height="850"
-                    />
+                    /> */}
                 </div>
                 
                 <hr/>
@@ -88,11 +90,12 @@ export default function ProjectsPage(){
                         </Link>
                     </div>
 
-                    <iframe 
-                        className={styles.kaggle_embed}
-                        src="https://www.kaggle.com/embed/clownchad/cafe-sales-junior-data-analysis?kernelSessionId=222427274" 
-                        title="Cafe Sales Analysis"
-                    />
+                    {/* <KaggleEmbed
+                        href = "https://www.kaggle.com/embed/clownchad/cafe-sales-junior-data-analysis?kernelSessionId=222427274"
+                        title = "Cafe Sales Analysis"
+                        width="100%"
+                        height="850px"
+                    /> */}
                 </div>
 
                 <hr/>
@@ -131,11 +134,12 @@ export default function ProjectsPage(){
                         </Link>
                     </div>
 
-                    <iframe 
-                        className={styles.kaggle_embed}
-                        src="https://www.kaggle.com/embed/clownchad/apple-stock-junior-exploratory-analysis?kernelSessionId=219824280" 
-                        title="Apple Stock Exploratory Analysis"
-                    />
+                    {/* <KaggleEmbed
+                        href = "https://www.kaggle.com/embed/clownchad/apple-stock-junior-exploratory-analysis?kernelSessionId=219824280"
+                        title = "Apple Stock Exploratory Analysis"
+                        width="100%"
+                        height="850px"
+                    /> */}
                 </div>
             </main>
         </div>

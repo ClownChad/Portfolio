@@ -45,6 +45,7 @@ a {
 }
 
 .section_title{
+  text-align: center;
   font-size: var(--fs_header);
   font-style: italic;
   font-weight: 500;
