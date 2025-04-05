@@ -1,7 +1,7 @@
 import styles from "./Header.module.css"
 import Image from "next/image";
 import Link from "next/link";
-import { FaEnvelope, FaLinkedin, FaGithub, FaKaggle } from "react-icons/fa"
+import { FaEnvelope, FaLinkedin, FaGithub, FaKaggle, FaBars } from "react-icons/fa"
 
 export default function Header(){
     const content = (

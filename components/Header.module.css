@@ -4,12 +4,9 @@
     grid-template-rows: auto;
     align-items: center;
     text-align: center;
-
     width: 100%;
     padding: 1rem;
-
     background-color: var(--background_header);
-    /* box-shadow: 0 0.2rem 8px 5px var(--foreground_40); */
 }
 
 .name_cont{
@@ -98,7 +95,14 @@
             background-color: var(--foreground);
         }
     }
-
-    
 }
 
+@media (min-width: 801px){
+
+}
+
+@media (max-width: 800px){
+    .header{
+        display: none;   
+    }
+}
