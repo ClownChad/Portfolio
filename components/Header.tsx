@@ -37,12 +37,6 @@ export default function Header(){
             </nav>
 
             <div className={styles.contact_cont}>
-                <Link className={styles.icon_link} href="chadderbox@live.com">
-                    <FaEnvelope 
-                        className={styles.icon}
-                        size={'2rem'}
-                    />
-                </Link>
                 <Link className={styles.icon_link} 
                     href="https://www.linkedin.com/in/chad-j-524825348/"
                     target="_blank"
