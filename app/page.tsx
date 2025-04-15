@@ -104,11 +104,10 @@ export default function Home() {
           <p className={styles.job_overview}>Agricultural lab position at a company which hit new record high numbers 3 years in a row.</p>
 
           <ul className={styles.job_desc_list}>
-            <li>Responsible for maintenance and operation of 5 combustion analysis (LECO) machines.</li>
-            <li>Accurately weighed and prepped up to 2,500 plant samples daily.</li>
-            <li>Lead team of 2 assistants and collaborated with night shift to ensure smooth and timely 24-hour workflow.</li>
-            <li>Effectively collaborated with 12+ person receiving team to organize and prep up to 13,000 samples daily for overnight testing.</li>
-            <li>Prepped and independently analyzed Bray II Phosphorus tests on ICP spectrometer.</li>
+            <li>Collaborated with cross-functional teams to maintain and operate 5 combustion analysis machines, ensuring high data accuracy in record-setting performance over 3 consecutive years.</li>
+            <li>Led a team of 2 assistants to accurately weigh and prep up to 2,500 plant samples daily, demonstrating strong analytical abilities and meticulous attention to detail.</li>
+            <li>Coordinated with a 12+ member receiving team to organize and prepare up to 13,000 soil samples daily, supporting data integrity and streamlined workflow processes.</li>
+            <li>Using LMS, prepped and independently analyzed Bray II Phosphorus tests using ICP spectrometers, applying data analysis techniques to derive actionable insights. </li>
           </ul>
         </div>
 
@@ -132,9 +131,9 @@ export default function Home() {
           <p className={styles.job_overview}>Data entry position at company which hired 100s of nationwide applicants daily for third-party transportation services.</p>
 
           <ul className={styles.job_desc_list}>
-            <li>Independently responsible for the most divisions out of the QAs by qualifying 20 to 50 nationwide prospective candidates daily through a detail-oriented onboarding procedure.</li>
-            <li>Used written and oral communication to expediately expeditiously obtain missing or invalid information. </li>
-            <li>Assisted in the maintenance of 2 spreadsheets of 1,000s of employees for pending info and needed DMV / medical information</li>
+            <li>Managed detailed data entry and onboarding procedures for 20 to 50 nationwide prospective candidates daily, ensuring accurate collection and processing of critical employment data.</li>
+            <li>Utilized effective written and verbal communication to resolve discrepancies in candidate information, supporting data quality and timely decision-making.</li>
+            <li>Maintained and updated large spreadsheets of thousands of employees&#39; records tracking pending DMV and medical information. </li>
           </ul>
         </div>
       </div>

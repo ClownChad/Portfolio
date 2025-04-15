@@ -1,7 +1,7 @@
 "use client"
 import { useEffect, useRef } from "react";
 
-export default function TableauEmbed({ href, width, height }: Readonly<{ href: string, width: string, height: string }>) {
+export default function TableauEmbed({ href, title, width, height }: Readonly<{ href: string, title: string, width: string, height: string }>) {
     const ref = useRef<HTMLDivElement | null>(null);
 
     useEffect(() => {
@@ -17,6 +17,7 @@ export default function TableauEmbed({ href, width, height }: Readonly<{ href: s
         <div ref={ref}>
             <iframe
                 src={`${href}&:embed=yes&:showVizHome=no&:tabs=no`}
+                title={title}
                 width= {width}
                 height={height}
                 style={{ border: "none" }}
