@@ -1,7 +1,6 @@
 import type { Metadata } from "next";
 import { Roboto, Tektur } from "next/font/google";
 import "./globals.css";
-import Header from "@/components/Header";
 import MobileHeader from "@/components/MobileHeader";
 
 const roboto = Roboto({
@@ -29,7 +28,6 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={`${roboto.variable} ${tektur.variable}`}>
-        <Header />
         <MobileHeader />
         {children}
       </body>

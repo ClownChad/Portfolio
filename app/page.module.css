@@ -1,5 +1,6 @@
 .main{
-  margin: var(--section_margin);
+  /* margin: var(--section_margin); */
+  margin: 4rem 5rem;
 }
 
 .about_me_cont{

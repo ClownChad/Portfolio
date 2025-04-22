@@ -6,7 +6,22 @@
     text-align: center;
     width: 100%;
     padding: 1rem;
+    overflow: hidden;
     background-color: var(--background_header);
+
+    &.open{
+        height: auto;
+        padding: 1rem;
+        transform: translateY(0%);
+        opacity: 1;
+    }
+
+    &.closed{
+        height: 0%;
+        padding: 0;
+        transform: translateY(-100%);
+        opacity: 0;
+    }
 }
 
 .name_cont{
@@ -103,6 +118,13 @@
 
 @media (max-width: 800px){
     .header{
-        display: none;   
+        position: fixed;
+        top: 5rem;
+        left: 0;
+        right: 0;
+
+        transition: transform 0.3s ease, opacity 0.3s ease;
+        transform: translateY(-100%);
+        opacity: 0;
     }
 }
