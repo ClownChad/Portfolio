@@ -83,13 +83,19 @@
 .contact_cont{
     display: flex;
     justify-content: flex-end;
+    align-items: center;
+    text-align: center;
     
     .icon_link{
         padding: .75rem;
     }
 
-    .icon{
-        margin-inline: .75rem;
+    .icon_linkedin{
+        margin-inline: .55rem;
+    }
+
+    .icon_github{
+        margin-inline: .5rem;
     }
 
     .icon_kaggle{
@@ -122,9 +128,37 @@
         top: 5rem;
         left: 0;
         right: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
 
         transition: transform 0.3s ease, opacity 0.3s ease;
         transform: translateY(-100%);
         opacity: 0;
+
+        .text_cont{
+            padding: 0;
+            padding-left: 1rem;
+        }
+
+        .nav{
+            .list{
+                flex-direction: column;
+
+                .nav_link{
+                    width: 100%;
+                    margin: 1rem 0;
+                    padding: 1rem;
+                    font-size: var(--fs_header_2);
+
+                    color: var(--background);
+                    background-color: var(--foreground);
+                }
+            }
+        }
+
+        .contact_cont{
+            margin-top: 1.5rem;
+        }
     }
 }
