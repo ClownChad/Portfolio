@@ -1,11 +1,18 @@
 import styles from "./Header.module.css"
 import Image from "next/image";
 import Link from "next/link";
-import { FaEnvelope, FaLinkedin, FaGithub, FaKaggle } from "react-icons/fa"
+import { FaLinkedin, FaGithub, FaKaggle, FaBars } from "react-icons/fa"
 
-export default function Header(){
+export default function Header({isMobile, headerOpen}: {isMobile: boolean, headerOpen: boolean}){
     const content = (
-        <header className={styles.header}>
+        <header 
+            className={
+                !isMobile ? styles.header :
+                headerOpen ? `${styles.header} ${styles.open}` : 
+                `${styles.header} ${styles.closed}`
+            } 
+            id="nav_header"
+        >
             <div className={styles.name_cont}>
                 <div className={styles.photo_cont}>
                     <Image 
@@ -19,7 +26,6 @@ export default function Header(){
 
                 <div className={styles.text_cont}>
                     <div className={styles.name}>Chad Jones</div>
-                    <div className={styles.title}>Data Analyst</div>
                 </div>                
             </div>
 
