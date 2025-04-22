@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Roboto, Tektur } from "next/font/google";
+import { Roboto } from "next/font/google";
 import "./globals.css";
 import MobileHeader from "@/components/MobileHeader";
 
@@ -7,12 +7,8 @@ const roboto = Roboto({
   variable: "--font_roboto",
   subsets: ["latin"],
   weight: ["300", "400", "500", "700"],
-  style: ["italic", "normal"]
-});
-
-const tektur = Tektur({
-  variable: "--font_tektur",
-  subsets: ["latin"]
+  style: ["italic", "normal"],
+  display: "swap"
 });
 
 export const metadata: Metadata = {
@@ -27,7 +23,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${roboto.variable} ${tektur.variable}`}>
+      <body className={`${roboto.variable}`}>
         <MobileHeader />
         {children}
       </body>
