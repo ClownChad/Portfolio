@@ -1,7 +1,7 @@
 import styles from "./Header.module.css"
 import Image from "next/image";
 import Link from "next/link";
-import { FaLinkedin, FaGithub, FaKaggle, FaBars } from "react-icons/fa"
+import { FaLinkedin, FaGithub, FaKaggle } from "react-icons/fa"
 
 export default function Header({isMobile, headerOpen}: {isMobile: boolean, headerOpen: boolean}){
     const content = (
@@ -10,8 +10,7 @@ export default function Header({isMobile, headerOpen}: {isMobile: boolean, heade
                 !isMobile ? styles.header :
                 headerOpen ? `${styles.header} ${styles.open}` : 
                 `${styles.header} ${styles.closed}`
-            } 
-            id="nav_header"
+            }
         >
             <div className={styles.name_cont}>
                 <div className={styles.photo_cont}>
@@ -48,8 +47,8 @@ export default function Header({isMobile, headerOpen}: {isMobile: boolean, heade
                     target="_blank"
                 >
                     <FaLinkedin 
-                        className={styles.icon}
-                        size={'2rem'}
+                        className={styles.icon_linkedin}
+                        size={!isMobile ? '2rem' : '3rem'}
                     />
                 </Link>
                 <Link 
@@ -57,8 +56,8 @@ export default function Header({isMobile, headerOpen}: {isMobile: boolean, heade
                     target="_blank"
                 >
                     <FaGithub 
-                        className={styles.icon}
-                        size={'2rem'}
+                        className={styles.icon_github}
+                        size={!isMobile ? '2rem' : '3rem'}
                     />
                 </Link>
                 <Link
@@ -67,7 +66,7 @@ export default function Header({isMobile, headerOpen}: {isMobile: boolean, heade
                 >
                     <FaKaggle 
                         className={styles.icon_kaggle}
-                        size={'2rem'}
+                        size={!isMobile ? '2rem' : '3rem'}
                     />
                 </Link>
             </div>
